@@ -6,5 +6,5 @@ const server = http.createServer((req, res) => {
 })
 
 server.listen(0, () => {
-    console.log(`Server listening on port http://localhost:${server.address().pory}`)
+    console.log(`Server listening on port http://localhost:${server.address().port}`)
 })
