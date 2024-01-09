@@ -5,6 +5,6 @@ const server = http.createServer((req, res) => {
     res.end('Hola Mundo')
 })
 
-server.listen(3000, () => {
-    console.log('Server listening on port 3000')
+server.listen(0, () => {
+    console.log(`Server listening on port http://localhost:${server.address().pory}`)
 })
